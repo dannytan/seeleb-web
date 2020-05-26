@@ -139,8 +139,9 @@ p {
 }
 
 .app-icon {
+	display: table;
 	width: 90px;
-	margin: 0 auto;
+	margin: auto;
 	filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
 	-webkit-filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
 }
@@ -166,10 +167,7 @@ p {
 
 .intro {
 	max-width: 300px;
-	margin-top: 13%;
-	margin-right: auto;
-	margin-bottom: 40px;
-	margin-left: auto;
+	margin: 13% auto 40px;
 }
 
 @media only screen and (min-width: 767px) {
